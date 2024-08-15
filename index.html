@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid" id="base">
+        <div class="row" id="segment-one">
+            <div class="col-12">
+                <h3>Assignment 1</h3>
+            </div>
+        </div>
+        <div class="row" style="text-align:center">
+            <h3>Buttons</h3>
+        </div>
+        <div class="row" id="segment-two">
+            <div class="col-2">
+                <button class="btn btn-lg btn-primary b1" id="widebutton">Button 1</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-secondary b2" id="widebutton">Button 2</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-success b3" id="widebutton">Button 3</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-info b4" id="widebutton">Button 4</button>
+            </div>
+            <div class="col-1">
+                <button class="btn disabled button btn-warning" id="widebutton">Button 5</button>
+            </div>
+            <div class="col-1">
+                <button class="btn disabled button btn-outline-primary" id="widebutton">Button 6</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-outline-secondary" id="widebutton">Button 7</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-outline-dark b8" id="widebutton">Button 8</button>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-outline-warning b9" id="widebutton">Button 9</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-lg btn-outline-danger b10" id="widebutton">Button 10</button>
+            </div>
+        </div>
+        <div class="row" style="text-align:center">
+            <h3>Card</h3>
+        </div>
+        <div class="row" id="segment-three">
+            <div class="col-4">
+                <div class="card w-100">
+                    <div class="card-header">
+                        Sample Card
+                    </div>
+                    <img class="card-img-top" src="https://placehold.co/600x400/orange/FFF">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">
+                            Sample Card Text
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card w-100">
+                    <div class="card-header">
+                        Sample Card
+                    </div>
+                    <img class="card-img-top" src="https://placehold.co/600x400/black/FFF">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">
+                            Sample Card Text
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card w-100">
+                    <div class="card-header">
+                        Sample Card
+                    </div>
+                    <img class="card-img-top" src="https://placehold.co/600x400/red/FFF">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">
+                            Sample Card Text
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="text-align:center">
+            <h3>Form-Group Form</h3>
+        </div>
+
+        <div class="row" id="segment-four">
+            <div class="col-3"></div>
+            <div class="col-6" id="cust-card">
+                <form id="cust-form">
+                    <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" placeholder="abc@example.com">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label class="form-label">Gender</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio" value="male">
+                            <label class="form-check-label" for="inlineRadio">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio" value="female">
+                            <label class="form-check-label" for="inlineRadio">Female</label>
+                        </div>                
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" id="widebutton">Submit</button>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row" style="text-align:center">
+            <div class="col-4">
+                <h3>List-Group List</h3>
+                <div class="row" id="segment-five">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Aries</li>
+                        <li class="list-group-item">Taurus</li>
+                        <li class="list-group-item">Gemini</li>
+                        <li class="list-group-item">Cancer</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3>Dropdown</h3>
+                <div class="row" id="segment-six">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Select Constellation
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Corvus</a></li>
+                            <li><a class="dropdown-item" href="#">Orion</a></li>
+                            <li><a class="dropdown-item" href="#">Cygnus</a></li>
+                            <li><a class="dropdown-item" href="#">Aquila</a></li>
+                            <li><a class="dropdown-item" href="#">Pegasus</a></li>
+                            <li><a class="dropdown-item" href="#">Phoenix</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3>Progress Bar</h3>
+                <div class="progress" style="height:20px" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped" style="width: 100%">Basic Progress Bar</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row" style="text-align:center">
+            <div class="col-4">
+                <h3>Table</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sl. No</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Person A</td>
+                            <td>Code B</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Person C</td>
+                            <td>Code D</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Person E</td>
+                            <td>Code F</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Person G</td>
+                            <td>Code H</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4">
+                <h3>Pagination</h3>
+                <div class="row" id="segment-seven">
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link">Prev</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">6</a></li>
+                    <li class="page-item"><a href="#" class="page-link">7</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3>Navbar</h3>
+                <nav class="navbar fixed-bottom navbar-expand-lg bg-primary navbar-dark shadow">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavMenuPanel">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">Navbar for Assignment 1</a>
+                        <div class="collapse navbar-collapse" id="NavMenuPanel">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contacts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Credits</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <form class="d-flex">
+                                    <input type="text" class="form-control"/>
+                                    <button class="btn mx-2 btn-primary b11">Search</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+        </div>
+        
+
+        
+    </div>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>

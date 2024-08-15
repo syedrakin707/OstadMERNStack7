@@ -1,0 +1,106 @@
+#segment-one{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins";
+    height: auto;
+}
+
+#segment-two, #segment-three, #segment-four{
+    padding: 12px;
+    align-items: center;
+    display:flex;
+}
+
+#segment-five, #segment-six, #segment-seven{
+    padding: 16px;
+    align-items: center;
+    display:flex;
+}
+
+#cust-card{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    
+}
+
+#widebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.b1, .b2{
+    transition: all 0.5s ease-out;
+}
+
+.b1:hover{
+    background-color:darkblue;
+    border-color: darkblue;
+}
+
+.b2:hover{
+    background: rgb(213,213,213);
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(152,152,152,1) 25%, 
+    rgba(68,68,68,1) 50%, rgba(152,152,152,1) 75%, rgba(213,213,213,1) 100%);
+    animation: slidebg 5s linear infinite;
+}
+
+.b3, .b8{
+    transition: border-radius 0.25s;
+}
+
+.b3:hover, .b8:hover{
+    transition: border-radius 0.75s;
+    border-radius: 40px;
+}
+
+.b4 {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 20px 20px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+
+.b4:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 2px 0 #3498db inset, 0 0 2px 1px #3498db;
+}
+
+.b9:hover{
+    background: rgb(205,219,0);
+    background: linear-gradient(90deg, rgba(205,219,0,1) 0%, rgba(184,168,0,1) 25%, rgba(244,255,96,1) 50%,
+        rgba(184,168,0,1) 75%, rgba(205,219,0,1) 100%); 
+    animation: slidebg 5s linear infinite;
+}
+
+.b10:hover{
+    filter:drop-shadow(2px 2px 2px grey);
+}
+
+.b11{
+    background-color: skyblue;
+    border-color: blue;
+    color:darkblue;
+    transition: all 0.5s ease-out;
+}
+
+.b11:hover{
+    background-color:darkblue;
+    border-color: darkblue;
+}
+
+@keyframes slidebg {
+    to {
+        background-position:20vw;
+    }
+}
